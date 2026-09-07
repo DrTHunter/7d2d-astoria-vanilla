@@ -127,6 +127,25 @@ that is what it already was.
 
 Every one of the 603 decisions is in [`docs/block-mapping.json`](docs/block-mapping.json).
 
+## Shapes, not just blocks
+
+A block reference in a prefab is `material:shape` — `woodShapes:cubeHalf`. The packs add their own
+**shapes** as well as their own blocks, and a shape like `MPL_FarmSink` is just as absent from a
+stock game as a block is. If it's missing, 7 Days to Die refuses to load the entire POI.
+
+25 mod shapes are mapped the same way the blocks are, and most have an exact vanilla twin once the
+pack's prefix comes off:
+
+```
+ZBK_Offset_signLetter_a   -> signLetter_a
+MPL_pillar50Plate_offset  -> pillar50Plate
+pillar50SquareTopSideCent -> pillar50CenteredSquareTop
+ZBK_CubeHalfConfessionalOffset -> cubeHalf
+MPL_FarmSink              -> cube          (a custom model; a solid block is the honest stand-in)
+```
+
+All 25 are in [`docs/shape-mapping.json`](docs/shape-mapping.json).
+
 ## Sleeper volumes
 
 Three Compopack sleeper groups had no vanilla equivalent and were renamed to the vanilla group they
@@ -141,7 +160,7 @@ is a real vanilla group, not a broken reference.
 
 The converted set was checked block by block:
 
-- **0** block names outside vanilla `blocks.xml`, across all 981 prefabs
+- **0** block *or shape* names outside vanilla `blocks.xml` / `shapes.xml`, across all 981 prefabs
 - **0** sleeper groups outside vanilla `gamestages.xml`
 - **0** decorations mapped onto anything harmful
 
