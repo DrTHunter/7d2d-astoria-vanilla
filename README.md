@@ -172,7 +172,9 @@ metre of levelling. An existing town lot was the fallback, and never won.
 
 Three traders that were already in the right place kept their spot and just got a better building.
 All **14 distinct trader buildings** are now in use — the five vanilla ones, six of MPLogue's,
-Zeebark's, and both of xcpv's settlements — so no two neighbouring towns look alike.
+Zeebark's, and both of xcpv's settlements — so no two neighbouring towns look alike. Three have
+deep basements (MPLogue's Wight bunker goes 31 blocks down), so those went to the sites with the
+most ground under them; the shallowest trader still stands on 5 m of rock.
 
 The spawn city gets a third, `trader_xcpv_Settlement_02_Viper7`, 266 m from where you wake up,
 because the first walk was otherwise the better part of a kilometre.

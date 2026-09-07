@@ -13107,15 +13107,15 @@
   <decoration type="model" name="trader_xcpv_Settlement_02_Viper7" position="2442,57,-568" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_jen_by_MPLogue" position="3292,42,-2676" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="Trader_Bob_Zeebark" position="1076,20,288" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_xcpv_Settlement_Viper7" position="-460,150,-404" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_Wight_Multi_Trader_by_MPLogue" position="-460,150,-404" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_bob_by_MPLogue" position="1456,78,-2594" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_rekt_by_MPLogue" position="2040,36,2404" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_joel" position="-108,57,-564" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_jen" position="-596,41,3348" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_bob" position="-304,101,2284" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_joel_by_MPLogue" position="-304,101,2284" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_hugh" position="3416,37,-2512" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_rekt" position="-1712,36,-558" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_Wight_Multi_Trader_by_MPLogue" position="-1140,17,3084" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_xcpv_Settlement_Viper7" position="-1140,17,3084" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_hugh_by_MPLogue" position="1412,57,-1228" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_joel_by_MPLogue" position="1620,18,1156" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_bob" position="1620,18,1156" rotation="0" y_is_groundlevel="true" />
 </prefabs>
