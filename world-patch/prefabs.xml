@@ -4844,7 +4844,7 @@
   <decoration type="model" name="canyon_gift_shop_parking" position="701,36,-2193" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="house_old_mansard_06" position="1320,57,1881" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_bob" position="2354,36,1540" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_hugh" position="3183,36,-1089" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_joel_by_MPLogue" position="3183,36,-1089" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="xcpv_Cidery_Deverezieaux" position="1060,57,-1759" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="part_mobile_office_trailer" position="1044,57,-1736" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="part_vehicle_forklift_01" position="1033,57,-1721" rotation="3" y_is_groundlevel="true" />
@@ -5103,11 +5103,11 @@
   <decoration type="model" name="part_industrial_tank_vertical" position="1517,36,2106" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="part_industrial_tank_horizontal" position="1532,36,2120" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="downtown_filler_park_04" position="530,36,2638" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_hugh" position="1646,36,-1164" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_Wight_Multi_Trader_by_MPLogue" position="1646,36,-1164" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="part_cave_supports" position="1539,38,-1266" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="part_loot_t1" position="1540,38,-1255" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_joel" position="-2586,36,-206" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="trader_joel" position="2349,57,134" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_hugh_by_MPLogue" position="2349,57,134" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="ranger_station_07" position="2106,57,-347" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="base_military_01" position="3341,36,359" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="installation_red_mesa" position="3450,36,379" rotation="3" y_is_groundlevel="true" />
@@ -13103,4 +13103,19 @@
   <decoration type="model" name="StarterBase_Plot2_Road_N" position="2178,57,-456" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Plot2_Road_Spur" position="2206,57,-526" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Road_Link2" position="2158,57,-490" rotation="0" y_is_groundlevel="true" />
+  <!-- ===== traders added on the approach roads (2026-09-07) ===== -->
+  <decoration type="model" name="trader_xcpv_Settlement_02_Viper7" position="2442,57,-568" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_jen_by_MPLogue" position="3292,42,-2676" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="Trader_Bob_Zeebark" position="1076,20,288" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_xcpv_Settlement_Viper7" position="-460,150,-404" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_bob_by_MPLogue" position="1456,78,-2594" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_rekt_by_MPLogue" position="2040,36,2404" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_joel" position="-108,57,-564" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_jen" position="-596,41,3348" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_bob" position="-304,101,2284" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_hugh" position="3416,37,-2512" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_rekt" position="-1712,36,-558" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_Wight_Multi_Trader_by_MPLogue" position="-1140,17,3084" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_hugh_by_MPLogue" position="1412,57,-1228" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_joel_by_MPLogue" position="1620,18,1156" rotation="0" y_is_groundlevel="true" />
 </prefabs>

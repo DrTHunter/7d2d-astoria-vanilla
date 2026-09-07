@@ -9,7 +9,7 @@ game.
 
 | | |
 |---|--:|
-| POIs in the world | **13,081** |
+| POIs in the world | **13,095** |
 | POI mods you need to install | **zero** |
 | Starter bases, no zombies inside | **8** |
 
@@ -72,7 +72,7 @@ Using Vortex? Drag `vortex/Astoria-Vanilla-POIs.zip` onto it instead and you get
 # How the conversion works
 
 The map places **1,785** distinct prefabs. 813 are vanilla and the game already has them; the other
-**972** came from nine mods and are bundled here, converted.
+**981** came from nine mods and are bundled here, converted.
 
 A prefab is three files that matter: `.tts` holds the block **geometry** as numeric ids,
 `.blocks.nim` maps those ids to block **names**, and `.xml` holds the metadata. Because the geometry
@@ -80,17 +80,17 @@ only stores ids, **swapping a material is a change to the name table alone** —
 never touched and every building keeps its exact shape, size and layout. Only what it is made of
 changes.
 
-Of the 972, only **84** used a non-vanilla block at all — between them, **570** distinct blocks.
+Of the 981, only **89** used a non-vanilla block at all — between them, **603** distinct blocks.
 The Compopack's 820 POIs, the bulk of the map, were already vanilla-only and needed nothing.
 
-## How each of the 570 was mapped
+## How each of the 603 was mapped
 
 | Method | Blocks |
 |---|--:|
-| Followed the block's own `Extends` chain to a vanilla block | 177 |
-| Curated family rule — pictures, rugs, furniture, appliances… | 276 |
-| Deliberately removed — vanilla has no equivalent | 114 |
-| No rule matched → removed | 3 |
+| Followed the block's own `Extends` chain to a vanilla block | 194 |
+| Curated family rule — pictures, rugs, furniture, appliances… | 284 |
+| Deliberately removed — vanilla has no equivalent | 119 |
+| No rule matched → removed | 6 |
 
 **1. The `Extends` chain.** Most modded blocks are declared as variations of a vanilla one, so the
 author has already told you what it is. Following that chain gives exact answers:
@@ -107,8 +107,8 @@ blocks all descend from `ZBK_PP_Picture01` — they are wall pictures, so they b
 `pictureFrame_01a`. Around 41 wall-mounted weapon props become an empty gun rack. Rugs become
 `rugBear`, couches `couchModernArm`, bicycles `bicycleStatic`.
 
-**3. Removal, on purpose.** 117 blocks become air, and that is the honest answer for them: 65 are
-wall stains, cracks, cutouts and torn wallpaper, 10 are graffiti, 10 are particle effects, 5 are
+**3. Removal, on purpose.** 125 blocks become air, and that is the honest answer for them: 65 are
+wall stains, cracks, cutouts and torn wallpaper, 10 are graffiti, 14 are particle effects, 6 are
 fallen trees. Vanilla has nothing that fills those roles.
 
 ### The rule that matters
@@ -125,7 +125,7 @@ blades and the like, and anything that fails falls through to air. A missing rug
 trap. The only exceptions are faithful ones: a modded blade trap does become `bladeTrap`, because
 that is what it already was.
 
-Every one of the 570 decisions is in [`docs/block-mapping.json`](docs/block-mapping.json).
+Every one of the 603 decisions is in [`docs/block-mapping.json`](docs/block-mapping.json).
 
 ## Sleeper volumes
 
@@ -141,7 +141,7 @@ is a real vanilla group, not a broken reference.
 
 The converted set was checked block by block:
 
-- **0** block names outside vanilla `blocks.xml`, across all 972 prefabs
+- **0** block names outside vanilla `blocks.xml`, across all 981 prefabs
 - **0** sleeper groups outside vanilla `gamestages.xml`
 - **0** decorations mapped onto anything harmful
 
@@ -150,13 +150,35 @@ The converted set was checked block by block:
 # What's in this repo
 
 ```
-vortex/Astoria-Vanilla-POIs.zip   the 972 converted POIs, 13.7 MB
+vortex/Astoria-Vanilla-POIs.zip   the 981 converted POIs, 13.9 MB
 world-patch/                      the map changes: dtm.patch, prefabs.xml, spawnpoints.xml
 tools/install.py                  applies them; --undo puts the stock map back
 docs/                             the full write-up, and every block decision as JSON
 ```
 
 444 MB of prefabs compress to 13.7 MB, because a `.tts` is mostly long runs of the same block id.
+
+## Traders
+
+**38 traders, and every town has one within a short walk.** Astoria shipped 24, but they were
+distributed by the world generator rather than by town, so several towns had none at all and the
+spawn city had two on opposite corners.
+
+Astoria's own traders sit a median 66 m *outside* the town edge, on the approach road, and that is
+the shape this follows — for each town without one, a clear, flat 60x60 patch 25–140 m beyond the
+edge was scored on distance to the nearest road, how much cut and fill it needs, and whether it
+faces the next town along. Every site chosen is on or beside a road; all but two need under a
+metre of levelling. An existing town lot was the fallback, and never won.
+
+Three traders that were already in the right place kept their spot and just got a better building.
+All **14 distinct trader buildings** are now in use — the five vanilla ones, six of MPLogue's,
+Zeebark's, and both of xcpv's settlements — so no two neighbouring towns look alike.
+
+The spawn city gets a third, `trader_xcpv_Settlement_02_Viper7`, 266 m from where you wake up,
+because the first walk was otherwise the better part of a kilometre.
+
+Turn on the **Traders** layer on the [interactive map](https://drthunter.github.io/astoria-8k-poi-map/)
+to see where they all are.
 
 ## The eight starter bases
 
