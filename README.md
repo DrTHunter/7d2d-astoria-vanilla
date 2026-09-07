@@ -71,7 +71,7 @@ Using Vortex? Drag `vortex/Astoria-Vanilla-POIs.zip` onto it instead and you get
 
 # How the conversion works
 
-The map places **1,785** distinct prefabs. 813 are vanilla and the game already has them; the other
+The map places **1,794** distinct prefabs. 813 are vanilla and the game already has them; the other
 **981** came from nine mods and are bundled here, converted.
 
 A prefab is three files that matter: `.tts` holds the block **geometry** as numeric ids,
@@ -156,7 +156,7 @@ tools/install.py                  applies them; --undo puts the stock map back
 docs/                             the full write-up, and every block decision as JSON
 ```
 
-444 MB of prefabs compress to 13.7 MB, because a `.tts` is mostly long runs of the same block id.
+453 MB of prefabs compress to 13.9 MB, because a `.tts` is mostly long runs of the same block id.
 
 ## Traders
 
