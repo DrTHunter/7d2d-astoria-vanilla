@@ -1,0 +1,17 @@
+{
+  "world": "Astoria 8K",
+  "game_version": "V 3.2.0 (b10)",
+  "base_map": "Astoria 8K - Game Version 2.0 - Full World Map (Nexus 7017, v1.5.1)",
+  "stock": {
+    "dtm.raw": "bb0a40b561cdcacee3c4b2193f70dec8",
+    "prefabs.xml": "522eed3da975bfb586bfb83f63344c0d",
+    "spawnpoints.xml": "5a2ce6280d0c9e5d98ec02c97458970c"
+  },
+  "result": {
+    "dtm.raw": "917494b6b8420584be3bae7d860610e6",
+    "prefabs.xml": "f25899cf90d7b572127066dbee2c4451",
+    "spawnpoints.xml": "1f8f6ea2a412612f5c4a89162a8fb06a"
+  },
+  "dtm_cells_changed": 112881,
+  "decorations": 13081
+}
