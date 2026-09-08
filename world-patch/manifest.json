@@ -8,10 +8,10 @@
     "spawnpoints.xml": "5a2ce6280d0c9e5d98ec02c97458970c"
   },
   "result": {
-    "dtm.raw": "3e1be2e95089e80f7ab081b48d2f40ee",
-    "prefabs.xml": "75d393b969559b487b192836d571d0ff",
+    "dtm.raw": "0b132b33551cd84eaee21e1f503d2ab3",
+    "prefabs.xml": "cba61088d4c3b523d7d86d2239745fdd",
     "spawnpoints.xml": "1f8f6ea2a412612f5c4a89162a8fb06a"
   },
-  "dtm_cells_changed": 195582,
-  "decorations": 13103
+  "dtm_cells_changed": 195784,
+  "decorations": 13105
 }

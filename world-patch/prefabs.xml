@@ -13077,7 +13077,7 @@
   <decoration type="model" name="StarterBase_Hotel_Tower" position="2286,57,-736" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Modern_House" position="2029,57,-578" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Bunker_House" position="2019,57,-467" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Ayesoar_Mansion" position="2091,57,-457" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Ayesoar_Mansion" position="2091,57,-467" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Compound_Wall_S" position="2010,57,-588" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Compound_Wall_N" position="2010,57,-385" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Compound_Wall_W" position="2010,57,-585" rotation="0" y_is_groundlevel="true" />
@@ -13127,4 +13127,7 @@
   <decoration type="model" name="StarterBase_Path_N" position="2104,57,-382" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Path_W" position="1996,57,-466" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Path_E" position="2160,57,-437" rotation="0" y_is_groundlevel="true" />
+  <!-- ===== horde bunkers: compound northeast nook, and behind the prison ===== -->
+  <decoration type="model" name="StarterBase_Horde_Bunker" position="2126,57,-412" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Horde_Bunker" position="2418,59,-746" rotation="0" y_is_groundlevel="true" />
 </prefabs>

@@ -9,7 +9,7 @@ game.
 
 | | |
 |---|--:|
-| POIs in the world | **13,103** |
+| POIs in the world | **13,105** |
 | POI mods you need to install | **zero** |
 | Starter bases, no zombies inside | **8** |
 
@@ -71,9 +71,9 @@ Using Vortex? Drag `vortex/Astoria-Vanilla-POIs.zip` onto it instead and you get
 
 # How the conversion works
 
-The map places **1,802** distinct prefabs. 813 are vanilla and the game already has them; the other
-**989** are bundled here — 981 converted from nine mods, plus the compound's own walls, guard
-posts and roads.
+The map places **1,803** distinct prefabs. 813 are vanilla and the game already has them; the other
+**990** are bundled here — 981 converted from nine mods, plus the compound's own walls, guard
+posts, roads and the horde bunker.
 
 A prefab is three files that matter: `.tts` holds the block **geometry** as numeric ids,
 `.blocks.nim` maps those ids to block **names**, and `.xml` holds the metadata. Because the geometry
@@ -161,7 +161,7 @@ is a real vanilla group, not a broken reference.
 
 The converted set was checked block by block:
 
-- **0** block *or shape* names outside vanilla `blocks.xml` / `shapes.xml`, across all 989 prefabs
+- **0** block *or shape* names outside vanilla `blocks.xml` / `shapes.xml`, across all 990 prefabs
 - **0** sleeper groups outside vanilla `gamestages.xml`
 - **0** decorations mapped onto anything harmful
 
@@ -170,7 +170,7 @@ The converted set was checked block by block:
 # What's in this repo
 
 ```
-vortex/Astoria-Vanilla-POIs.zip   the 989 POIs, 13.9 MB
+vortex/Astoria-Vanilla-POIs.zip   the 990 POIs, 13.9 MB
 world-patch/                      the map changes: dtm.patch, prefabs.xml, spawnpoints.xml
 tools/install.py                  applies them; --undo puts the stock map back
 docs/                             the full write-up, and every block decision as JSON
