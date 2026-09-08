@@ -13127,11 +13127,11 @@
   <decoration type="model" name="StarterBase_Horde_Bunker" position="2126,57,-412" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Horde_Bunker" position="2418,59,-746" rotation="0" y_is_groundlevel="true" />
   <!-- ===== Modern House fence: security posts, 4 m proud of the line ===== -->
-  <decoration type="model" name="StarterBase_SecurityPost" position="2037,57,-597" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_SecurityPost" position="2123,57,-597" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_SecurityPost" position="2038,57,-385" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_SecurityPost" position="2126,57,-385" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_SecurityPost" position="2001,57,-543" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_SecurityPost" position="2001,57,-428" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_SecurityPost" position="2245,57,-514" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2034,57,-593" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2120,57,-593" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2129,57,-385" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2041,57,-385" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2005,57,-425" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2005,57,-540" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2245,57,-517" rotation="2" y_is_groundlevel="true" />
 </prefabs>
