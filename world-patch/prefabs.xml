@@ -4262,7 +4262,7 @@
   <decoration type="model" name="xcpv_Tank_Mackenziix" position="2191,57,572" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="xcpv_Taylors_Camp_Tdestructinator" position="1597,57,882" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="xcpv_Tower_Fluffy_Panda" position="2944,36,1938" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="xcpv_Trailer_01_ZZTong" position="2079,57,-382" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="xcpv_Trailer_01_ZZTong" position="2079,57,-352" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="xcpv_Trailer_03_ZZTong" position="1681,36,-166" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="cave_02" position="1706,36,-194" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="xcpv_Trailer_04_ZZTong" position="1704,36,-126" rotation="0" y_is_groundlevel="true" />
@@ -13078,10 +13078,10 @@
   <decoration type="model" name="StarterBase_Modern_House" position="2029,57,-578" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Bunker_House" position="2019,57,-467" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Ayesoar_Mansion" position="2091,57,-467" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Compound_Wall_S" position="2010,57,-588" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Compound_Wall_N" position="2010,57,-385" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Compound_Wall_W" position="2010,57,-585" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Compound_Wall_E" position="2157,57,-585" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Compound_Wall_S" position="2010,57,-604" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Compound_Wall_N" position="2010,57,-387" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Compound_Wall_W" position="1994,57,-585" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Compound_Wall_E" position="2157,57,-585" rotation="1" y_is_groundlevel="true" />
   <!-- ===== compound roads (2026-09-06) ===== -->
   <decoration type="model" name="StarterBase_Road_Ring_W" position="2013,57,-585" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Road_Ring_E" position="2152,57,-585" rotation="0" y_is_groundlevel="true" />
@@ -13094,9 +13094,9 @@
   <!-- ===== plot 2: Zeebark modern house, walled, 14 m east of the compound ===== -->
   <decoration type="model" name="StarterBase_Zeebark_Modern_House" position="2179,57,-517" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Plot2_Wall_S" position="2172,57,-524" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Plot2_Wall_N" position="2172,57,-451" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Plot2_Wall_W" position="2172,57,-523" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Plot2_Wall_E" position="2245,57,-523" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Plot2_Wall_N" position="2172,57,-451" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Plot2_Wall_W" position="2172,57,-523" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Plot2_Wall_E" position="2243,57,-523" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Plot2_Road_W" position="2173,57,-523" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Plot2_Road_E" position="2240,57,-523" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Plot2_Road_S" position="2178,57,-523" rotation="0" y_is_groundlevel="true" />
@@ -13119,15 +13119,19 @@
   <decoration type="model" name="trader_hugh_by_MPLogue" position="1412,57,-1228" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_bob" position="1620,18,1156" rotation="0" y_is_groundlevel="true" />
   <!-- ===== compound perimeter: guard posts and paths ===== -->
-  <decoration type="model" name="StarterBase_Guard_SW" position="2010,57,-593" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Guard_SE" position="2153,57,-593" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Guard_NW" position="2010,57,-382" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Guard_NE" position="2153,57,-382" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Path_S" position="2081,57,-601" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Path_N" position="2104,57,-382" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Path_W" position="1996,57,-466" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Path_S" position="2081,57,-617" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Path_N" position="2104,57,-366" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Path_W" position="1980,57,-466" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Path_E" position="2160,57,-437" rotation="0" y_is_groundlevel="true" />
   <!-- ===== horde bunkers: compound northeast nook, and behind the prison ===== -->
   <decoration type="model" name="StarterBase_Horde_Bunker" position="2126,57,-412" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Horde_Bunker" position="2418,59,-746" rotation="0" y_is_groundlevel="true" />
+  <!-- ===== Modern House fence: security posts, 4 m proud of the line ===== -->
+  <decoration type="model" name="StarterBase_SecurityPost" position="2037,57,-597" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2123,57,-597" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2038,57,-385" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2126,57,-385" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2001,57,-543" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2001,57,-428" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_SecurityPost" position="2245,57,-514" rotation="2" y_is_groundlevel="true" />
 </prefabs>
