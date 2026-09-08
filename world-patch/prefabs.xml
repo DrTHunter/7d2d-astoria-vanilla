@@ -13078,9 +13078,9 @@
   <decoration type="model" name="StarterBase_Modern_House" position="2029,57,-578" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Bunker_House" position="2019,57,-467" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Ayesoar_Mansion" position="2091,57,-457" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Compound_Wall_S" position="2012,57,-586" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Compound_Wall_N" position="2012,57,-385" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Compound_Wall_W" position="2012,57,-585" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Compound_Wall_S" position="2010,57,-588" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Compound_Wall_N" position="2010,57,-385" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Compound_Wall_W" position="2010,57,-585" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Compound_Wall_E" position="2157,57,-585" rotation="0" y_is_groundlevel="true" />
   <!-- ===== compound roads (2026-09-06) ===== -->
   <decoration type="model" name="StarterBase_Road_Ring_W" position="2013,57,-585" rotation="0" y_is_groundlevel="true" />
@@ -13089,7 +13089,7 @@
   <decoration type="model" name="StarterBase_Road_Ring_N" position="2018,57,-390" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Road_Lane" position="2018,57,-473" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Road_Link" position="2088,57,-467" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Road_Out_A" position="2158,57,-533" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Road_Out_A" position="2160,57,-533" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Road_Out_B" position="2259,57,-558" rotation="0" y_is_groundlevel="true" />
   <!-- ===== plot 2: Zeebark modern house, walled, 14 m east of the compound ===== -->
   <decoration type="model" name="StarterBase_Zeebark_Modern_House" position="2179,57,-517" rotation="0" y_is_groundlevel="true" />
@@ -13102,7 +13102,7 @@
   <decoration type="model" name="StarterBase_Plot2_Road_S" position="2178,57,-523" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Plot2_Road_N" position="2178,57,-456" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="StarterBase_Plot2_Road_Spur" position="2206,57,-526" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="StarterBase_Road_Link2" position="2158,57,-490" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Road_Link2" position="2160,57,-490" rotation="0" y_is_groundlevel="true" />
   <!-- ===== traders added on the approach roads (2026-09-07) ===== -->
   <decoration type="model" name="trader_xcpv_Settlement_02_Viper7" position="2442,57,-568" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_jen_by_MPLogue" position="3292,42,-2676" rotation="0" y_is_groundlevel="true" />
@@ -13118,4 +13118,13 @@
   <decoration type="model" name="trader_xcpv_Settlement_Viper7" position="-1140,17,3084" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_hugh_by_MPLogue" position="1412,57,-1228" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="trader_bob" position="1620,18,1156" rotation="0" y_is_groundlevel="true" />
+  <!-- ===== compound perimeter: guard posts and paths ===== -->
+  <decoration type="model" name="StarterBase_Guard_SW" position="2010,57,-593" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Guard_SE" position="2153,57,-593" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Guard_NW" position="2010,57,-382" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Guard_NE" position="2153,57,-382" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Path_S" position="2081,57,-601" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Path_N" position="2104,57,-382" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Path_W" position="1996,57,-466" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="StarterBase_Path_E" position="2160,57,-437" rotation="0" y_is_groundlevel="true" />
 </prefabs>
